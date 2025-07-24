@@ -9,7 +9,7 @@ A responsive and modern **Hospital Website** built using HTML, CSS, and basic Ja
 ## 📸 Screenshots
 
 ### 🖼️ Homepage
-![Homepage Screenshot](images/screenshot1.png)
+![Homepage Screenshot](https://github.com/ashabharti/hospital_website/blob/main/images/Screenshot1.png)
 
 ### 🏥 Departments Section
 ![Departments Screenshot](images/screenshot2.png)
