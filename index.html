@@ -1,97 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hospital Website</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hospital Website</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
+  <!-- Header Section -->
+  <header class="header">
+    <nav class="navbar">
+      <img src="images/download.png" alt="Hospital Logo" class="logo" />
+      <div class="nav-buttons">
+        <button class="language-btn">English <img src="images/downicon.jpg" alt="dropdown icon"/></button>
+        <button class="sign-in-btn">Sign In</button>
+      </div>
+    </nav>
 
-    <!--            -------------------           -->
-    <div class="header">
-       <nav>
-        <img src="images/download.png" class="logo">
-        <div>
-            <button class="language-btn">English<img src="images/downicon.jpg" ></button>
-            <button>Sign In</button>
-        </div>
-       </nav> 
-
-    </div>
     <div class="header-content">
-        <h1>YOUR HEALTH IS OUR PRIORITY.</h1>
-        <h3></h3>
-        <p>From preventive care and checkups, to immunizations and exams, our primary care physicians and providers work to keep you and your whole family healthy and strong each and every day. </p>
-        <form class="email-signup">
-            <input type="email" placeholder="Email address" required>
-            <button type="submit">Get Started</button>
-        </form>
+      <h1>Your Health is Our Priority.</h1>
+      <p>From preventive care to checkups, immunizations to exams, our doctors keep your family healthy every day.</p>
+      <form class="email-signup">
+        <input type="email" placeholder="Email address" required />
+        <button type="submit">Get Started</button>
+      </form>
     </div>
-    <div class="fea">
-        <h2>Medical Departments:</h2>
-    </div>
-    <div class="features">
-        <div class="row">
-            <div class="text-col">
-            <h2>CARDIOLOGY</h2>
-            <p> Cardiology is a medical specialty and a branch of internal medicine concerned with disorders of the heart.</p>
+  </header>
+
+  <!-- Departments Section -->
+  <main>
+    <section class="departments">
+      <h2>Medical Departments</h2>
+
+      <div class="department">
+        <div class="text-col">
+          <h3>Cardiology</h3>
+          <p>Deals with disorders of the heart and circulatory system.</p>
         </div>
         <div class="img-col">
-            <img src="images/cardiology.png">
+          <img src="images/cardiology.png" alt="Cardiology" />
         </div>
-     </div>
-     <div class="row">
+      </div>
+
+      <div class="department reverse">
         <div class="img-col">
-            <img src="images/neurology.png">
+          <img src="images/neurology.png" alt="Neurology" />
         </div>
         <div class="text-col">
-        <h2>NEUROLOGY</h2>
-        <p> Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system.</p>
-    </div>
-   
- </div>
- <div class="row">
-    <div class="text-col">
-    <h2>NEPHROLOGY</h2>
-    <p> Nephrology is the branch of medical science that deals with the kidney. </p>
-</div>
-<div class="img-col">
-    <img src="images/nepthlogy.png">
-</div>
-</div>
-<div class="row">
-    <div class="img-col">
-        <img src="images/histo pathology.png">
-    </div>
-    <div class="text-col">
-    <h2>HISTO PATHOLOGY</h2>
-    <p> Histopathology is a branch of pathology concerned with the tissue changes characteristic of disease.</p>
-</div>
-
-</div>
-    </div>
-    <div class="footer">
-        <h2>Question call 000-000-000-000</h2>
-        <div class="row">
-        <div class="col">
-            <a href="#">FAQ</a>
-            <a href="#">medical care</a>
-            <a href="#">emergency</a>
-            <a href="#">nurse</a>
+          <h3>Neurology</h3>
+          <p>Focuses on disorders of the nervous system.</p>
         </div>
-        <div class="col">
-            <a href="#">our service</a>
-            <a href="#">our plan</a>
-            <a href="#">privacy policy</a>
-            <a href="#">Appoinment schedue</a>
-        </div>
+      </div>
 
+      <div class="department">
+        <div class="text-col">
+          <h3>Nephrology</h3>
+          <p>Medical specialty concerned with kidney function and treatment.</p>
         </div>
-        <button class="language-btn">English<img src="images/downicon.jpg" ></button>
+        <div class="img-col">
+          <img src="images/nepthlogy.png" alt="Nephrology" />
+        </div>
+      </div>
 
-    </div> 
-    
+      <div class="department reverse">
+        <div class="img-col">
+          <img src="images/histo pathology.png" alt="Histopathology" />
+        </div>
+        <div class="text-col">
+          <h3>Histopathology</h3>
+          <p>Studies tissue disease at the microscopic level.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <h2>Questions? Call 000-000-0000</h2>
+    <div class="footer-links">
+      <div class="footer-col">
+        <a href="#">FAQ</a>
+        <a href="#">Medical Care</a>
+        <a href="#">Emergency</a>
+        <a href="#">Nurse</a>
+      </div>
+      <div class="footer-col">
+        <a href="#">Our Services</a>
+        <a href="#">Our Plans</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Appointment Schedule</a>
+      </div>
+    </div>
+    <button class="language-btn">English <img src="images/downicon.jpg" alt="dropdown icon"/></button>
+  </footer>
+
 </body>
 </html>
