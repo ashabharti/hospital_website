@@ -1,168 +1,186 @@
-*{
-    margin:0;
-    padding:0;
-    font-family: 'poppins','sans-serif';
-    box-sizing: 'border-box';
-}
-body{
-    background: #070707f3;
-    color: #fff;
+/* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-
-.header{
-   width: 100%;
-   height: 100vh;
-   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/image3.jpg);
-   background-size: cover;
-   background-position: center;
-   padding: 10px ;
-   position: relative;
+body {
+  background-color: #0e0e0e;
+  color: #fff;
+  line-height: 1.6;
 }
 
- nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 0;
-}
-.logo{
-    width: 150px;
-    cursor: pointer;
-}
-nav button{
-    border: 0;
-    outline: 0;
-    background: #db0001;
-    color: #fff;
-    padding: 7px 20px;
-    font-size: 12px;
-    border-radius: 4px;
-    margin-left: 10px;
-    cursor: pointer;
-}
-.language-btn{
-    display: inline-flex;
-    align-items: center;
-    background: transparent;
-    border: 1px solid #fff;
-    padding: 7px 10px;
-}
-.language-btn img{
-    width: 10px ;
-    margin-left: 10px;
-}
-.header-content{
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-    margin-top: 70px;
-}
-.header-content{
-    font-size: 30px;
-    line-height: 60px;
-    font-weight: 500;
-    max-width: 650px;
-}
-.email-signup{
-    background: #fff;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    margin-top:30px;
-    overflow: hidden;
-}
-.email-signup input{
-    flex: 1;
-    border: 0;
-    outline: 0;
-    margin-left: 20px;
-}
-email-signup button{
-    background: #db0001;
-    border: 0;
-    outline: 0;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    padding: 15px 30px;
+/* Header */
+.header {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+              url(images/image3.jpg) center/cover no-repeat;
+  height: 100vh;
+  padding: 20px;
+  position: relative;
 }
 
-/*features------------*/
-.features{
-    padding:50px 12%;
-    font-size:27px;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.row{
-    display:flex;
-    width: 100%;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 50px 0;
 
+.logo {
+  width: 150px;
 }
-.text-col{
-    flex-basis: 50%;
-    margin-bottom:20px;
-}
-.img-col{
-    flex-basis: 50%;
-    margin-bottom:20px;
-}
-.img-col img{
-    display: block;
-    width: 60%;
-    margin: auto;
-}
-.features h2{
-    font-size:50px;
-    font-weight: 600;
-    margin: bottom 20px;;
-}
-.fea{
-    padding: 10px 12%;
-    text-align:left;
-    font-size: 18px;
-   }
-   .fea h2{
-    font-weight: 500;
-    font-size: 40px;
-   }
 
+.nav-buttons button {
+  background: #db0001;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
 
-   /*-----footer----*/
-   .footer{
-    padding: 50px 15% 10px;
-    border-top:6px solid #333;
-    color:#777;
+.language-btn {
+  background: transparent;
+  border: 1px solid #fff;
+  display: inline-flex;
+  align-items: center;
+}
 
-   }
-   .footer h2{
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 40px;
-   }
-   .footer .col{
-    flex-basis:20%;
-    flex-grow: 1;
-    margin-bottom: 20px;
-   }
-   .footer .col a{
-    display:block;
-    text-decoration: none;
-    color: #777;
-    font-size: 14px;
-    margin-bottom: 10px;
-   }
-   .footer .row{
-    align-items:flex-start;
-    padding:10px 0
-   }
-.footer .language-btn{
-    color:#fff;
-    padding:10px 20px;
-    border-radius:3px;
-    
+.language-btn img {
+  width: 10px;
+  margin-left: 6px;
+}
+
+.header-content {
+  text-align: center;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+}
+
+.header-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.header-content p {
+  font-size: 16px;
+  color: #ddd;
+}
+
+.email-signup {
+  display: flex;
+  margin-top: 30px;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.email-signup input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.email-signup button {
+  padding: 12px 20px;
+  background: #db0001;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Departments Section */
+.departments {
+  padding: 60px 10%;
+  background: #121212;
+}
+
+.departments h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.department {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.department.reverse {
+  flex-direction: row-reverse;
+}
+
+.text-col, .img-col {
+  flex: 1;
+  padding: 20px;
+}
+
+.text-col h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.text-col p {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.img-col img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+  background: #1f1f1f;
+  padding: 50px 10%;
+  border-top: 4px solid #333;
+  text-align: center;
+}
+
+.footer h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #bbb;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-col a {
+  display: block;
+  color: #888;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-col a:hover {
+  color: #fff;
+}
+
+.footer .language-btn {
+  margin-top: 20px;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 4px;
 }
