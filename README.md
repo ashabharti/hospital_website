@@ -6,20 +6,14 @@ A responsive and modern **Hospital Website** built using HTML, CSS, and basic Ja
 
 ---
 
-## 🌐 Live Preview
-
-Check out the live version of the website (if hosted):  
-[🔗 View Demo](#) *(Add your GitHub Pages or Netlify link here)*
-
----
-
 ## 📸 Screenshots
 
-![Screenshot 1](images/screenshot1.png)  
-*Homepage showing header and email signup section*
+### 🖼️ Homepage
+![Homepage Screenshot](images/screenshot1.png)
 
-![Screenshot 2](images/screenshot2.png)  
-*Medical departments section*
+### 🏥 Departments Section
+![Departments Screenshot](images/screenshot2.png)
+
 
 ---
 
